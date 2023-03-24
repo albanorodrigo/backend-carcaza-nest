@@ -19,8 +19,8 @@ async function bootstrap() {
   // Para publicar la Documentación => https://docs.nestjs.com/openapi/introduction
   //# yarn add @nestjs/swagger
   const config = new DocumentBuilder()
-    .setTitle('Teslo RESTFul API')
-    .setDescription('Teslo shop endpoints')
+    .setTitle('BackEnd Carcaza Nest')
+    .setDescription('BackEnd base para la construccion de aplicaciones en Nest JS')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
